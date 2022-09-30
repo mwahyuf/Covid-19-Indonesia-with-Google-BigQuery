@@ -1,5 +1,0 @@
-select Province, sum(New_Active_cases) as totalNewActiveCases
-from `eastern-road-363013.dataset_covidindo.covidindo`
-where Province is not NULL
-group by Province
-order by totalNewActiveCases desc
